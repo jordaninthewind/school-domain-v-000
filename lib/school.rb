@@ -26,7 +26,6 @@ class School
 
   def sort
     @roster.collect { | k, v | [k, v.sort]}.to_h
-
   end
 
 end
